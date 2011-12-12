@@ -1,6 +1,6 @@
 {* Purpose of this template: navigation form *}
 {checkpermissionblock component='SimpleMedia::' instance='.*' level='ACCESS_EDIT'}
-<form action="{$modvars.Zikula.entrypoint|default:'index.php'}" method="get" id="smNavForm">
+<form action="{$modvars.ZConfig.entrypoint|default:'index.php'}" method="get" id="smNavForm">
     <fieldset>
 {if !isset($smarty.get.type) || $smarty.get.type ne 'admin'}
 <h3 style="margin-top: 0">Navigation für Redakteure</h3>
