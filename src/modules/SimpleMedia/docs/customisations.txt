@@ -1,0 +1,49 @@
+
+
+CUSTOMISATIONS
+--------------
+
+SimpleMedia - Manual additions and amendments
+
+CORE HACKS
+
+Changed files
+  * bootstrap.php
+  * images/admin.png
+  * lib/SimpleMedia/Listener/ThirdParty.php
+  * style/style.css
+  * templates/contenttype/itemlist_edit.tpl
+  * templates/plugins/function.simplemediaSelectorTemplates.php
+
+Implemented classes:
+  * lib/SimpleMedia/ContentType/ItemList.php
+  * lib/SimpleMedia/Controller/Admin.php
+  * lib/SimpleMedia/Controller/Ajax.php
+  * lib/SimpleMedia/Controller/User.php
+  * lib/SimpleMedia/Entity/Repository/Medium.php
+  * lib/SimpleMedia/Form/Handler/Admin/Config.php
+  * lib/SimpleMedia/Installer.php
+  * lib/SimpleMedia/UploadHandler.php
+
+Additional files:
+  * images/logo*.png
+  * javascript/findItem.js
+  * javascript/jsCropperUI-1.2.2/
+  * lib/SimpleMedia/Api/Category.php
+  * lib/SimpleMedia/ContentType/Medium.php
+  * lib/SimpleMedia/Controller/External.php
+  * lib/SimpleMedia/Form/Plugin/MediaSelector.php
+  * lib/SimpleMedia/Util/Manual.php
+  * lib/SimpleMedia/Util/Mime.php
+  * lib/vendor/flvplayer/
+  * lib/vendor/mp3/
+  * style/findItem.css
+  * templates/plugins/function.getinlinesnippet.php
+  * templates/plugins/function.simplemediaSelectorMedium.php
+  * templates/inline/*
+  * SCRIBITE
+    - editor plugins (xinha + tinymce)
+    - user editor header (tinymce)
+    - user api customisation for javascript file inclusion
+
+Overridden templates in /config.

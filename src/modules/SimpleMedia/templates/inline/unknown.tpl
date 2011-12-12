@@ -1,0 +1,2 @@
+{* Purpose of this template: default template for inline view of unrecognized file types *}
+<a href="{$medium.theFileFullPathURL}">{gt text='Download'}</a> ({$medium.theFileMeta.size|simplemediaGetFileSize:$medium.theFileFullPath:false:false})

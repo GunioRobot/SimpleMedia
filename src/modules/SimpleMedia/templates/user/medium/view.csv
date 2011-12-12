@@ -1,0 +1,5 @@
+{* purpose of this template: media view csv view in user area *}
+{simplemediaTemplateHeaders contentType='text/comma-separated-values; charset=iso-8859-15' asAttachment=true filename='Media.csv'}
+"{gt text='Title'}";"{gt text='The file'}";"{gt text='Description'}"{foreach item='medium' from=$items}
+"{$medium.title|replace:"\"":""}";"{$medium.theFile}";"{$medium.description|replace:"\"":""}"{/foreach}
+

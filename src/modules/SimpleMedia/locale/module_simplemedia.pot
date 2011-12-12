@@ -1,0 +1,1178 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula component\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-13 23:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lib/SimpleMedia/UploadHandler.php:59
+#: lib/SimpleMedia/Base/UploadHandler.php:81
+msgid "Error! Could not move your file to the destination folder."
+msgstr ""
+
+#: lib/SimpleMedia/Form/Handler/Base/Admin/Config.php:107
+#: lib/SimpleMedia/Form/Handler/Admin/Config.php:98
+msgid "Error! Failed to set configuration variables."
+msgstr ""
+
+#: lib/SimpleMedia/Form/Handler/Base/Admin/Config.php:110
+#: lib/SimpleMedia/Form/Handler/Admin/Config.php:101
+msgid "Done! Module configuration updated."
+msgstr ""
+
+#: lib/SimpleMedia/Form/Handler/Base/Admin/Medium/Edit.php:130
+#: lib/SimpleMedia/Form/Handler/Base/Admin/Medium/Edit.php:167
+#: lib/SimpleMedia/Controller/Admin.php:61
+#: lib/SimpleMedia/Controller/Admin.php:65
+#: lib/SimpleMedia/Controller/Admin.php:160
+#: lib/SimpleMedia/Controller/Admin.php:164
+#: lib/SimpleMedia/Controller/External.php:72
+#: lib/SimpleMedia/Controller/Base/Admin.php:182
+#: lib/SimpleMedia/Controller/Base/User.php:196
+msgid "No such item."
+msgstr ""
+
+#: lib/SimpleMedia/Form/Handler/Base/Admin/Medium/Edit.php:377
+msgid "Done! Medium created."
+msgstr ""
+
+#: lib/SimpleMedia/Form/Handler/Base/Admin/Medium/Edit.php:379
+msgid "Done! Medium updated."
+msgstr ""
+
+#: lib/SimpleMedia/Form/Handler/Base/Admin/Medium/Edit.php:387
+msgid "Error! Creation attempt failed."
+msgstr ""
+
+#: lib/SimpleMedia/Form/Handler/Base/Admin/Medium/Edit.php:411
+msgid "Done! Medium deleted."
+msgstr ""
+
+#: lib/SimpleMedia/Form/Plugin/ColourInput.php:95
+msgid "Close"
+msgstr ""
+
+#: lib/SimpleMedia/Form/Plugin/ColourInput.php:139
+msgid "Error! Invalid colour."
+msgstr ""
+
+#: lib/SimpleMedia/Block/Base/ItemList.php:37
+msgid ""
+"Notice: This block will not be displayed until you activate the SimpleMedia "
+"module."
+msgstr ""
+
+#: lib/SimpleMedia/Block/Base/ItemList.php:41
+msgid "Item list"
+msgstr ""
+
+#: lib/SimpleMedia/Block/Base/ItemList.php:42
+msgid "Show a list of SimpleMedia items based on different criteria."
+msgstr ""
+
+#: lib/SimpleMedia/Block/Base/ItemList.php:139
+#: lib/SimpleMedia/ContentType/Base/ItemList.php:38
+msgid "SimpleMedia items"
+msgstr ""
+
+#: lib/SimpleMedia/Entity/Validator/Base/Medium.php:34
+#, php-format
+msgid "Error! Field value may only contain digits (%s)."
+msgstr ""
+
+#: lib/SimpleMedia/Entity/Validator/Base/Medium.php:38
+#: lib/SimpleMedia/Entity/Validator/Base/Medium.php:42
+#: lib/SimpleMedia/Entity/Validator/Base/Medium.php:50
+#: lib/SimpleMedia/Entity/Validator/Base/Medium.php:58
+#, php-format
+msgid "Error! Length of field value must not be higher than %2$s (%1$s)."
+msgstr ""
+
+#: lib/SimpleMedia/Entity/Validator/Base/Medium.php:46
+#: lib/SimpleMedia/Entity/Validator/Base/Medium.php:54
+#, php-format
+msgid "Error! Field value must not be empty (%s)."
+msgstr ""
+
+#: lib/SimpleMedia/Util/Manual.php:27
+msgid "Enforced thumbnail size"
+msgstr ""
+
+#: lib/SimpleMedia/Util/Manual.php:28
+msgid "Variable size, but enforced image proportions"
+msgstr ""
+
+#: lib/SimpleMedia/Util/Manual.php:29
+msgid "Variable size and image proportions"
+msgstr ""
+
+#: lib/SimpleMedia/Util/Base/View.php:181
+msgid "Bytes"
+msgstr ""
+
+#: lib/SimpleMedia/Util/Base/View.php:184
+msgid "KB"
+msgstr ""
+
+#: lib/SimpleMedia/Util/Base/View.php:188
+msgid "MB"
+msgstr ""
+
+#: lib/SimpleMedia/Util/Base/View.php:192
+msgid "GB"
+msgstr ""
+
+#: lib/SimpleMedia/Util/Base/Image.php:140
+#, php-format
+msgid "An error occured during thumbnail creation: %s"
+msgstr ""
+
+#: lib/SimpleMedia/Controller/Admin.php:55
+#: lib/SimpleMedia/Controller/Admin.php:154
+#: lib/SimpleMedia/Controller/External.php:66
+#: lib/SimpleMedia/Controller/Base/Admin.php:176
+#: lib/SimpleMedia/Controller/Base/User.php:186
+msgid "Error! Invalid identifier received."
+msgstr ""
+
+#: lib/SimpleMedia/Controller/Admin.php:72
+#: lib/SimpleMedia/Controller/Admin.php:171
+msgid "Thumbnail cropping is not activated."
+msgstr ""
+
+#: lib/SimpleMedia/Controller/Admin.php:78
+msgid "Please define some thumbnail dimensions."
+msgstr ""
+
+#: lib/SimpleMedia/Controller/Admin.php:211
+msgid ""
+"Done! The image has been updated. If you still see the old one please "
+"refresh your browser cache."
+msgstr ""
+
+#: lib/SimpleMedia/Controller/Base/Ajax.php:63
+#: lib/SimpleMedia/Controller/Base/Ajax.php:74
+msgid "Error: invalid input."
+msgstr ""
+
+#: lib/SimpleMedia/Api/Base/Admin.php:30
+msgid "Frontend"
+msgstr ""
+
+#: lib/SimpleMedia/Api/Base/Admin.php:31
+msgid "Switch to user area."
+msgstr ""
+
+#: lib/SimpleMedia/Api/Base/Admin.php:36 lib/SimpleMedia/Api/Base/User.php:36
+#: templates/plugins/function.simplemediaSelectorObjectTypes.php:29
+#: templates/block/itemlist_modify.tpl:6
+msgid "Media"
+msgstr ""
+
+#: lib/SimpleMedia/Api/Base/Admin.php:37 lib/SimpleMedia/Api/Base/User.php:37
+#: templates/user/medium/view.tpl:4 templates/admin/medium/view.tpl:4
+#: templates_config/user/medium/view.tpl:4
+#: templates_config/admin/medium/view.tpl:4
+msgid "Medium list"
+msgstr ""
+
+#: lib/SimpleMedia/Api/Base/Admin.php:41
+msgid "Configuration"
+msgstr ""
+
+#: lib/SimpleMedia/Api/Base/Admin.php:42
+msgid "Manage settings for this application"
+msgstr ""
+
+#: lib/SimpleMedia/Api/Base/User.php:30
+msgid "Backend"
+msgstr ""
+
+#: lib/SimpleMedia/Api/Base/User.php:31
+msgid "Switch to administration area."
+msgstr ""
+
+#: lib/SimpleMedia/Api/Base/Mailz.php:32
+msgid "3 newest media"
+msgstr ""
+
+#: lib/SimpleMedia/Api/Base/Mailz.php:33
+msgid "A list of the three newest media."
+msgstr ""
+
+#: lib/SimpleMedia/Api/Base/Mailz.php:38
+msgid "3 random media"
+msgstr ""
+
+#: lib/SimpleMedia/Api/Base/Mailz.php:39
+msgid "A list of three random media."
+msgstr ""
+
+#: lib/SimpleMedia/Base/UploadHandler.php:107
+msgid "Error! No file found."
+msgstr ""
+
+#: lib/SimpleMedia/Base/UploadHandler.php:118
+msgid ""
+"Error! This file type is not allowed. Please choose another file format."
+msgstr ""
+
+#: lib/SimpleMedia/Base/UploadHandler.php:127
+msgid "Error! This file type seems not to be a valid image."
+msgstr ""
+
+#: lib/SimpleMedia/Base/Version.php:25
+msgid "SimpleMedia"
+msgstr ""
+
+#: lib/SimpleMedia/Base/Version.php:27
+msgid "Simple file and media management."
+msgstr ""
+
+#. ! url version of name, should be in lowercase without space
+#: lib/SimpleMedia/Base/Version.php:29
+msgid "simplemedia"
+msgstr ""
+
+#: lib/SimpleMedia/Base/Version.php:65
+msgid "simplemedia Media Display Hooks"
+msgstr ""
+
+#: lib/SimpleMedia/Base/Version.php:82
+msgid "simplemedia Media Filter Hooks"
+msgstr ""
+
+#: lib/SimpleMedia/Base/Installer.php:28
+#, php-format
+msgid ""
+"The upload folder \"%s\" does not exist. Please create it before installing "
+"this application."
+msgstr ""
+
+#: lib/SimpleMedia/Base/Installer.php:31
+#, php-format
+msgid ""
+"The upload folder \"%s\" is not writable. Please change permissions "
+"accordingly before installing this application."
+msgstr ""
+
+#: lib/SimpleMedia/Base/Installer.php:39
+#: lib/SimpleMedia/Base/Installer.php:121
+msgid "Doctrine Exception: "
+msgstr ""
+
+#: lib/SimpleMedia/Base/Installer.php:41
+#, php-format
+msgid "An error was encountered while creating the tables for the %s module."
+msgstr ""
+
+#: lib/SimpleMedia/Base/Installer.php:114
+#, php-format
+msgid ""
+"An error was encountered while removing stored object workflows for the %s "
+"module."
+msgstr ""
+
+#: lib/SimpleMedia/Base/Installer.php:123
+#, php-format
+msgid "An error was encountered while dropping the tables for the %s module."
+msgstr ""
+
+#: lib/SimpleMedia/ContentType/Medium.php:37
+#: templates/user/medium/display.tpl:4 templates/admin/medium/display.tpl:4
+#: templates_config/user/medium/display.tpl:4
+#: templates_config/admin/medium/display.tpl:4
+msgid "Medium"
+msgstr ""
+
+#: lib/SimpleMedia/ContentType/Medium.php:43
+msgid "Display or link a file."
+msgstr ""
+
+#: lib/SimpleMedia/ContentType/Medium.php:80
+msgid "No medium selected."
+msgstr ""
+
+#: lib/SimpleMedia/ContentType/Base/ItemList.php:44
+msgid "Display SimpleMedia items."
+msgstr ""
+
+#: templates/plugins/function.simplemediaValidationError.php:36
+msgid "This is a required field."
+msgstr ""
+
+#: templates/plugins/function.simplemediaValidationError.php:37
+msgid "Please enter a valid number in this field."
+msgstr ""
+
+#: templates/plugins/function.simplemediaValidationError.php:38
+msgid ""
+"Please use numbers only in this field. please avoid spaces or other "
+"characters such as dots or commas."
+msgstr ""
+
+#: templates/plugins/function.simplemediaValidationError.php:39
+msgid "Please use letters only (a-z) in this field."
+msgstr ""
+
+#: templates/plugins/function.simplemediaValidationError.php:40
+msgid ""
+"Please use only letters (a-z) or numbers (0-9) only in this field. No spaces "
+"or other characters are allowed."
+msgstr ""
+
+#: templates/plugins/function.simplemediaValidationError.php:41
+msgid "Please enter a valid date."
+msgstr ""
+
+#: templates/plugins/function.simplemediaValidationError.php:42
+msgid "Please enter a valid email address. For example yourname@example.com ."
+msgstr ""
+
+#: templates/plugins/function.simplemediaValidationError.php:43
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: templates/plugins/function.simplemediaValidationError.php:44
+msgid ""
+"Please use this date format: dd/mm/yyyy. For example 17/03/2010 for the 17th "
+"of March, 2010."
+msgstr ""
+
+#: templates/plugins/function.simplemediaValidationError.php:45
+msgid "Please enter a valid $ amount. For example $100.00 ."
+msgstr ""
+
+#: templates/plugins/function.simplemediaValidationError.php:46
+msgid "Please make a selection."
+msgstr ""
+
+#: templates/plugins/function.simplemediaValidationError.php:47
+msgid "Please select one of the above options."
+msgstr ""
+
+#: templates/plugins/function.simplemediaValidationError.php:50
+msgid "This value must not contain spaces."
+msgstr ""
+
+#: templates/plugins/function.simplemediaValidationError.php:51
+msgid "Please select a valid html colour code."
+msgstr ""
+
+#: templates/plugins/function.simplemediaValidationError.php:52
+#: templates/plugins/function.simplemediaValidationError.php:54
+#: templates/plugins/function.simplemediaValidationError.php:56
+msgid "Please select a value in the past."
+msgstr ""
+
+#: templates/plugins/function.simplemediaValidationError.php:53
+#: templates/plugins/function.simplemediaValidationError.php:55
+#: templates/plugins/function.simplemediaValidationError.php:57
+msgid "Please select a value in the future."
+msgstr ""
+
+#: templates/plugins/function.simplemediaValidationError.php:58
+msgid "This value is already assigned, but must be unique. Please change it."
+msgstr ""
+
+#: templates/plugins/function.simplemediaTemplateHeaders.php:31
+#, php-format
+msgid "%1$s: missing parameter '%2$s'"
+msgstr ""
+
+#: templates/plugins/function.simplemediaSelectorTemplates.php:29
+#: templates/block/itemlist_modify.tpl:27
+msgid "Only item titles"
+msgstr ""
+
+#: templates/plugins/function.simplemediaSelectorTemplates.php:30
+#: templates/block/itemlist_modify.tpl:28
+msgid "With description"
+msgstr ""
+
+#: templates/plugins/function.simplemediaSelectorTemplates.php:31
+msgid "Gallery"
+msgstr ""
+
+#: templates/mailz/itemlist_Medium_text.tpl:7
+#: templates/mailz/itemlist_Medium_html.tpl:11
+#: templates/user/medium/view.tpl:75 templates/admin/medium/view.tpl:94
+#: templates_config/user/medium/view.tpl:74
+#: templates_config/admin/medium/view.tpl:102
+msgid "No media found."
+msgstr ""
+
+#: templates/inline/doc_ooffice.tpl:12 templates/inline/plain.tpl:6
+#: templates/inline/doc_msoffice.tpl:22
+msgid "Your browser does not support embedded frames unfortunately."
+msgstr ""
+
+#: templates/inline/doc_ooffice.tpl:15 templates/inline/unknown.tpl:2
+#: templates/inline/doc_msoffice.tpl:25 templates/user/medium/view.tpl:58
+#: templates/user/medium/display.tpl:17 templates/admin/medium/view.tpl:66
+#: templates/admin/medium/edit.tpl:54 templates/admin/medium/display.tpl:19
+#: templates_config/admin/medium/edit.tpl:54
+msgid "Download"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:4
+#: templates/block/itemlist_modify.tpl:4
+msgid "Object type"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:10
+#: templates/block/itemlist_modify.tpl:11
+msgid "Sorting"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:13
+#: templates/block/itemlist_modify.tpl:13
+msgid "Random"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:15
+#: templates/block/itemlist_modify.tpl:14
+msgid "Newest"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:17
+#: templates/block/itemlist_modify.tpl:15
+msgid "Default"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:22
+#: templates/block/itemlist_modify.tpl:20
+msgid "Amount"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:27
+#: templates/block/itemlist_modify.tpl:25
+msgid "Template File"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:33
+#: templates/block/itemlist_modify.tpl:33
+msgid "Filter (expert option)"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:35
+#: templates/block/itemlist_modify.tpl:35
+msgid "Syntax examples"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:35
+#: templates/block/itemlist_modify.tpl:35
+msgid "or"
+msgstr ""
+
+#: templates/contenttype/itemlist_Medium_display_description.tpl:9
+#: templates/contenttype/itemlist_Medium_display.tpl:5
+#: templates_config/contenttype/itemlist_Medium_display_description.tpl:10
+#: templates_config/contenttype/itemlist_Medium_display_gallery.tpl:10
+msgid "Read more"
+msgstr ""
+
+#: templates/contenttype/itemlist_Medium_display_description.tpl:11
+#: templates_config/contenttype/itemlist_Medium_display_description.tpl:12
+#: templates_config/external/findItem.tpl:118
+#: templates_config/external/selectItem.tpl:27
+msgid "No entries found."
+msgstr ""
+
+#: templates/contenttype/medium_edit.tpl:10
+msgid "Insert link to file"
+msgstr ""
+
+#: templates/contenttype/medium_edit.tpl:12
+msgid "Embed file"
+msgstr ""
+
+#: templates/contenttype/medium_edit.tpl:18
+msgid "Only for images:"
+msgstr ""
+
+#: templates/contenttype/medium_edit.tpl:21
+msgid "No zoom"
+msgstr ""
+
+#: templates/contenttype/medium_edit.tpl:23
+msgid "Normal zoom"
+msgstr ""
+
+#: templates/contenttype/medium_edit.tpl:25
+msgid "Inner zoom"
+msgstr ""
+
+#: templates/contenttype/medium_edit.tpl:34
+msgid "Original"
+msgstr ""
+
+#: templates/user/header.tpl:12 templates_config/user/header.tpl:12
+msgid "Simple media"
+msgstr ""
+
+#: templates/user/medium/view.tpl:13 templates/admin/medium/view.tpl:21
+#: templates_config/user/medium/view.tpl:12
+#: templates_config/admin/medium/view.tpl:20
+msgid "Back to paginated view"
+msgstr ""
+
+#: templates/user/medium/view.tpl:19 templates/admin/medium/view.tpl:27
+#: templates_config/user/medium/view.tpl:17
+#: templates_config/admin/medium/view.tpl:25
+msgid "Show all entries"
+msgstr ""
+
+#: templates/user/medium/view.tpl:35 templates/user/medium/view.csv:3
+#: templates/user/include_metadata_display.tpl:6
+#: templates/admin/medium/view.tpl:43 templates/admin/medium/view.csv:3
+#: templates/admin/medium/edit.tpl:30
+#: templates/admin/include_metadata_display.tpl:6
+#: templates/admin/include_metadata_edit.tpl:6
+#: templates_config/user/medium/view.tpl:33
+#: templates_config/navigationForm.tpl:28
+#: templates_config/admin/medium/view.tpl:47
+#: templates_config/admin/medium/edit.tpl:30
+#: templates_config/external/findItem.tpl:134
+#: templates_config/external/selectItem.tpl:40
+msgid "Title"
+msgstr ""
+
+#: templates/user/medium/view.tpl:38 templates/user/medium/view.csv:3
+#: templates/user/medium/display.tpl:12 templates/admin/medium/view.tpl:46
+#: templates/admin/medium/view.csv:3 templates/admin/medium/edit.tpl:39
+#: templates/admin/medium/display.tpl:14
+#: templates_config/user/medium/view.tpl:34
+#: templates_config/user/medium/display.tpl:12
+#: templates_config/navigationForm.tpl:32
+#: templates_config/admin/medium/view.tpl:50
+#: templates_config/admin/medium/edit.tpl:39
+#: templates_config/admin/medium/display.tpl:14
+#: templates_config/external/findItem.tpl:138
+#: templates_config/external/selectItem.tpl:44
+msgid "The file"
+msgstr ""
+
+#: templates/user/medium/view.tpl:41 templates/user/medium/view.csv:3
+#: templates/user/medium/display.tpl:21
+#: templates/user/include_metadata_display.tpl:22
+#: templates/admin/medium/view.tpl:49 templates/admin/medium/view.csv:3
+#: templates/admin/medium/edit.tpl:62 templates/admin/medium/display.tpl:23
+#: templates/admin/include_metadata_display.tpl:22
+#: templates/admin/include_metadata_edit.tpl:26
+#: templates_config/user/medium/display.tpl:14
+#: templates_config/admin/medium/view.tpl:53
+#: templates_config/admin/medium/edit.tpl:62
+#: templates_config/admin/medium/display.tpl:16
+msgid "Description"
+msgstr ""
+
+#: templates/user/medium/view.tpl:43 templates/admin/medium/view.tpl:51
+#: templates_config/user/medium/view.tpl:35
+#: templates_config/admin/medium/view.tpl:55
+msgid "Actions"
+msgstr ""
+
+#: templates/user/medium/view.tpl:68 templates/admin/medium/view.tpl:79
+#: templates/admin/medium/display.tpl:8
+#: templates_config/user/medium/view.tpl:50
+#: templates_config/admin/medium/view.tpl:78
+#: templates_config/admin/medium/editThumb.tpl:9
+#: templates_config/admin/medium/display.tpl:8
+msgid "Details"
+msgstr ""
+
+#: templates/user/medium/include_displayItemListMany.tpl:10
+#: templates/user/medium/include_displayItemListOne.tpl:7
+#: templates/admin/medium/include_displayItemListMany.tpl:10
+#: templates/admin/medium/include_displayItemListOne.tpl:7
+msgid "Open quick view window"
+msgstr ""
+
+#: templates/user/medium/include_displayItemListMany.tpl:11
+#: templates/user/medium/include_displayItemListOne.tpl:8
+#: templates/admin/medium/include_displayItemListMany.tpl:11
+#: templates/admin/medium/include_displayItemListOne.tpl:8
+msgid "Quick view"
+msgstr ""
+
+#: templates/user/medium/view.rss:11 templates/user/medium/view.atom:4
+#: templates/admin/medium/view.rss:11 templates/admin/medium/view.atom:4
+msgid "Latest media"
+msgstr ""
+
+#: templates/user/medium/view.rss:12 templates/user/medium/view.atom:5
+#: templates/admin/medium/view.rss:12 templates/admin/medium/view.atom:5
+msgid "A direct feed showing the list of media"
+msgstr ""
+
+#: templates/user/medium/view.rss:43
+#: templates/user/include_categories_display.tpl:3
+#: templates/admin/medium/view.rss:43
+#: templates/admin/include_categories_edit.tpl:3
+#: templates/admin/include_categories_display.tpl:3
+msgid "Categories"
+msgstr ""
+
+#: templates/user/medium/display.tpl:31 templates/user/medium/display.tpl:32
+#: templates/admin/medium/display.tpl:42 templates/admin/medium/display.tpl:43
+#: templates_config/user/medium/display.tpl:42
+#: templates_config/user/medium/display.tpl:43
+#: templates_config/admin/medium/display.tpl:44
+#: templates_config/admin/medium/display.tpl:45
+msgid "Back to overview"
+msgstr ""
+
+#: templates/user/include_metadata_display.tpl:3
+#: templates/admin/include_metadata_display.tpl:3
+#: templates/admin/include_metadata_edit.tpl:3
+msgid "Metadata"
+msgstr ""
+
+#: templates/user/include_metadata_display.tpl:10
+#: templates/admin/include_metadata_display.tpl:10
+#: templates/admin/include_metadata_edit.tpl:11
+msgid "Author"
+msgstr ""
+
+#: templates/user/include_metadata_display.tpl:14
+#: templates/admin/include_metadata_display.tpl:14
+#: templates/admin/include_metadata_edit.tpl:16
+msgid "Subject"
+msgstr ""
+
+#: templates/user/include_metadata_display.tpl:18
+#: templates/admin/include_metadata_display.tpl:18
+#: templates/admin/include_metadata_edit.tpl:21
+msgid "Keywords"
+msgstr ""
+
+#: templates/user/include_metadata_display.tpl:26
+#: templates/admin/include_metadata_display.tpl:26
+#: templates/admin/include_metadata_edit.tpl:31
+msgid "Publisher"
+msgstr ""
+
+#: templates/user/include_metadata_display.tpl:30
+#: templates/admin/include_metadata_display.tpl:30
+#: templates/admin/include_metadata_edit.tpl:36
+msgid "Contributor"
+msgstr ""
+
+#: templates/user/include_metadata_display.tpl:34
+#: templates/admin/include_metadata_display.tpl:34
+#: templates/admin/include_metadata_edit.tpl:41
+msgid "Start date"
+msgstr ""
+
+#: templates/user/include_metadata_display.tpl:38
+#: templates/admin/include_metadata_display.tpl:38
+#: templates/admin/include_metadata_edit.tpl:50
+msgid "End date"
+msgstr ""
+
+#: templates/user/include_metadata_display.tpl:42
+#: templates/admin/include_metadata_display.tpl:42
+#: templates/admin/include_metadata_edit.tpl:59
+msgid "Type"
+msgstr ""
+
+#: templates/user/include_metadata_display.tpl:46
+#: templates/admin/include_metadata_display.tpl:46
+#: templates/admin/include_metadata_edit.tpl:64
+msgid "Format"
+msgstr ""
+
+#: templates/user/include_metadata_display.tpl:50
+#: templates/admin/include_metadata_display.tpl:50
+#: templates/admin/include_metadata_edit.tpl:69
+msgid "Uri"
+msgstr ""
+
+#: templates/user/include_metadata_display.tpl:54
+#: templates/admin/include_metadata_display.tpl:54
+#: templates/admin/include_metadata_edit.tpl:74
+msgid "Source"
+msgstr ""
+
+#: templates/user/include_metadata_display.tpl:58
+#: templates/admin/include_metadata_display.tpl:58
+#: templates/admin/include_metadata_edit.tpl:79
+msgid "Language"
+msgstr ""
+
+#: templates/user/include_metadata_display.tpl:62
+#: templates/admin/include_metadata_display.tpl:62
+#: templates/admin/include_metadata_edit.tpl:84
+msgid "Relation"
+msgstr ""
+
+#: templates/user/include_metadata_display.tpl:66
+#: templates/admin/include_metadata_display.tpl:66
+#: templates/admin/include_metadata_edit.tpl:89
+msgid "Coverage"
+msgstr ""
+
+#: templates/user/include_metadata_display.tpl:70
+#: templates/admin/include_metadata_display.tpl:70
+#: templates/admin/include_metadata_edit.tpl:94
+msgid "Comment"
+msgstr ""
+
+#: templates/user/include_metadata_display.tpl:74
+#: templates/admin/include_metadata_display.tpl:74
+#: templates/admin/include_metadata_edit.tpl:99
+msgid "Extra"
+msgstr ""
+
+#: templates/user/include_standardfields_display.tpl:3
+#: templates/admin/include_standardfields_display.tpl:3
+#: templates/admin/include_standardfields_edit.tpl:4
+msgid "Creation and update"
+msgstr ""
+
+#: templates/user/include_standardfields_display.tpl:6
+#: templates/admin/include_standardfields_display.tpl:6
+msgid "Creation"
+msgstr ""
+
+#: templates/user/include_standardfields_display.tpl:17
+#: templates/admin/include_standardfields_display.tpl:17
+#, php-format
+msgid "Created by %1$s on %2$s"
+msgstr ""
+
+#: templates/user/include_standardfields_display.tpl:20
+#: templates/admin/include_standardfields_display.tpl:20
+msgid "Last update"
+msgstr ""
+
+#: templates/user/include_standardfields_display.tpl:31
+#: templates/admin/include_standardfields_display.tpl:31
+#, php-format
+msgid "Updated by %1$s on %2$s"
+msgstr ""
+
+#: templates/user/include_attributes_display.tpl:3
+#: templates/admin/include_attributes_edit.tpl:3
+#: templates/admin/include_attributes_display.tpl:3
+msgid "Attributes"
+msgstr ""
+
+#: templates/admin/medium/view.tpl:13 templates/admin/medium/edit.tpl:10
+#: templates/admin/medium/edit.tpl:111
+#: templates_config/admin/medium/view.tpl:13
+#: templates_config/admin/medium/edit.tpl:10
+#: templates_config/admin/medium/edit.tpl:111
+msgid "Create medium"
+msgstr ""
+
+#: templates/admin/medium/view.tpl:75
+msgid "Open preview page"
+msgstr ""
+
+#: templates/admin/medium/view.tpl:76
+#: templates_config/admin/medium/editThumb.tpl:22
+msgid "Preview"
+msgstr ""
+
+#: templates/admin/medium/view.tpl:82 templates/admin/medium/view.tpl:83
+#: templates/admin/medium/display.tpl:35 templates/admin/medium/display.tpl:36
+#: templates_config/user/medium/view.tpl:53
+#: templates_config/user/medium/view.tpl:54
+#: templates_config/user/medium/display.tpl:26
+#: templates_config/user/medium/display.tpl:27
+#: templates_config/admin/medium/view.tpl:81
+#: templates_config/admin/medium/view.tpl:82
+#: templates_config/admin/medium/display.tpl:28
+#: templates_config/admin/medium/display.tpl:29
+#: templates_config/external/display.tpl:14
+#: templates_config/external/display.tpl:15
+msgid "Edit"
+msgstr ""
+
+#: templates/admin/medium/view.tpl:85 templates/admin/medium/display.tpl:38
+#: templates_config/user/medium/view.tpl:65
+#: templates_config/user/medium/display.tpl:29
+#: templates_config/admin/medium/view.tpl:93
+#: templates_config/admin/medium/display.tpl:31
+#: templates_config/external/display.tpl:24
+msgid "Reuse for new item"
+msgstr ""
+
+#: templates/admin/medium/view.tpl:86 templates/admin/medium/display.tpl:39
+#: templates_config/user/medium/view.tpl:66
+#: templates_config/user/medium/display.tpl:30
+#: templates_config/admin/medium/view.tpl:94
+#: templates_config/admin/medium/display.tpl:32
+#: templates_config/external/display.tpl:25
+msgid "Reuse"
+msgstr ""
+
+#: templates/admin/medium/edit.tpl:7 templates/admin/medium/edit.tpl:13
+#: templates_config/admin/medium/edit.tpl:7
+#: templates_config/admin/medium/edit.tpl:13
+msgid "Edit medium"
+msgstr ""
+
+#: templates/admin/medium/edit.tpl:28
+#: templates_config/admin/medium/edit.tpl:28
+msgid "Content"
+msgstr ""
+
+#: templates/admin/medium/edit.tpl:31
+msgid "Enter the title of the medium"
+msgstr ""
+
+#: templates/admin/medium/edit.tpl:46
+#: templates_config/admin/medium/edit.tpl:46
+msgid "Allowed file extensions:"
+msgstr ""
+
+#: templates/admin/medium/edit.tpl:49
+#: templates_config/admin/medium/edit.tpl:49
+msgid "Current file"
+msgstr ""
+
+#: templates/admin/medium/edit.tpl:63
+msgid "Enter the description of the medium"
+msgstr ""
+
+#: templates/admin/medium/edit.tpl:82
+#: templates_config/admin/medium/edit.tpl:82
+msgid "Hooks"
+msgstr ""
+
+#: templates/admin/medium/edit.tpl:94
+#: templates_config/admin/medium/edit.tpl:94
+msgid "Return control"
+msgstr ""
+
+#: templates/admin/medium/edit.tpl:96
+#: templates_config/admin/medium/edit.tpl:96
+msgid "Create another item after save"
+msgstr ""
+
+#: templates/admin/medium/edit.tpl:105
+#: templates_config/admin/medium/edit.tpl:105
+msgid "Update medium"
+msgstr ""
+
+#: templates/admin/medium/edit.tpl:107
+#: templates_config/admin/medium/edit.tpl:107
+msgid "Really delete this medium?"
+msgstr ""
+
+#: templates/admin/medium/edit.tpl:108
+#: templates_config/admin/medium/edit.tpl:108
+msgid "Delete medium"
+msgstr ""
+
+#: templates/admin/medium/edit.tpl:113 templates_config/navigationForm.tpl:73
+#: templates_config/admin/medium/edit.tpl:113
+msgid "OK"
+msgstr ""
+
+#: templates/admin/medium/edit.tpl:115 templates/admin/config.tpl:52
+#: templates_config/admin/medium/editThumb.tpl:49
+#: templates_config/admin/medium/edit.tpl:115
+#: templates_config/admin/config.tpl:69
+#: templates_config/external/findItem.tpl:168
+msgid "Cancel"
+msgstr ""
+
+#: templates/admin/config.tpl:4 templates/admin/config.tpl:7
+#: templates_config/admin/config.tpl:4 templates_config/admin/config.tpl:7
+msgid "Settings"
+msgstr ""
+
+#: templates/admin/config.tpl:18 templates_config/admin/config.tpl:18
+msgid "Here you can manage all basic settings for this application."
+msgstr ""
+
+#: templates/admin/config.tpl:21 templates_config/navigationForm.tpl:45
+#: templates_config/admin/config.tpl:21
+#: templates_config/external/findItem.tpl:147
+msgid "Page size"
+msgstr ""
+
+#: templates/admin/config.tpl:22 templates/admin/config.tpl:30
+#: templates/admin/config.tpl:46 templates_config/admin/config.tpl:22
+#: templates_config/admin/config.tpl:44
+msgid "Input this setting. Only digits are allowed."
+msgstr ""
+
+#: templates/admin/config.tpl:25 templates_config/admin/config.tpl:25
+msgid "Thumb dimensions"
+msgstr ""
+
+#: templates/admin/config.tpl:26 templates/admin/config.tpl:38
+#: templates_config/admin/config.tpl:26
+msgid "Input this setting."
+msgstr ""
+
+#: templates/admin/config.tpl:29 templates_config/admin/config.tpl:43
+msgid "Default thumb number"
+msgstr ""
+
+#: templates/admin/config.tpl:33 templates_config/admin/config.tpl:47
+msgid "Enable shrinking"
+msgstr ""
+
+#: templates/admin/config.tpl:37 templates_config/admin/config.tpl:51
+msgid "Shrink dimensions"
+msgstr ""
+
+#: templates/admin/config.tpl:41 templates_config/admin/config.tpl:58
+msgid "Use thumb cropper"
+msgstr ""
+
+#: templates/admin/config.tpl:45 templates_config/admin/config.tpl:62
+msgid "Crop size mode"
+msgstr ""
+
+#: templates/admin/config.tpl:51 templates_config/admin/config.tpl:68
+msgid "Update configuration"
+msgstr ""
+
+#: templates/admin/include_metadata_edit.tpl:80
+msgid "Choose a language"
+msgstr ""
+
+#: templates/admin/include_categories_edit.tpl:7
+#: templates_config/navigationForm.tpl:13
+#: templates_config/admin/medium/view.tpl:44
+#: templates_config/external/findItem.tpl:48
+#: templates_config/external/selectItem.tpl:14
+msgid "Category"
+msgstr ""
+
+#: templates/admin/include_standardfields_edit.tpl:8
+#, php-format
+msgid "Created by %s"
+msgstr ""
+
+#: templates/admin/include_standardfields_edit.tpl:9
+#, php-format
+msgid "Created on %s"
+msgstr ""
+
+#: templates/admin/include_standardfields_edit.tpl:13
+#, php-format
+msgid "Updated by %s"
+msgstr ""
+
+#: templates/admin/include_standardfields_edit.tpl:14
+#, php-format
+msgid "Updated on %s"
+msgstr ""
+
+#: templates_config/user/medium/view.tpl:61
+#: templates_config/user/medium/view.tpl:62
+#: templates_config/user/medium/display.tpl:37
+#: templates_config/user/medium/display.tpl:38
+#: templates_config/admin/medium/view.tpl:89
+#: templates_config/admin/medium/view.tpl:90
+#: templates_config/admin/medium/display.tpl:39
+#: templates_config/admin/medium/display.tpl:40
+#: templates_config/external/display.tpl:19
+#: templates_config/external/display.tpl:20
+msgid "Crop thumbnail image"
+msgstr ""
+
+#: templates_config/navigationForm.tpl:20
+#: templates_config/external/findItem.tpl:49
+#: templates_config/external/selectItem.tpl:15
+msgid "All"
+msgstr ""
+
+#: templates_config/navigationForm.tpl:25
+#: templates_config/external/findItem.tpl:132
+#: templates_config/external/selectItem.tpl:38
+msgid "Sort by"
+msgstr ""
+
+#: templates_config/navigationForm.tpl:29
+#: templates_config/external/findItem.tpl:135
+#: templates_config/external/selectItem.tpl:41
+msgid "Creation date"
+msgstr ""
+
+#: templates_config/navigationForm.tpl:30
+#: templates_config/external/findItem.tpl:136
+#: templates_config/external/selectItem.tpl:42
+msgid "Creator"
+msgstr ""
+
+#: templates_config/navigationForm.tpl:31
+#: templates_config/external/findItem.tpl:137
+#: templates_config/external/selectItem.tpl:43
+msgid "Update date"
+msgstr ""
+
+#: templates_config/navigationForm.tpl:35
+#: templates_config/external/findItem.tpl:141
+#: templates_config/external/selectItem.tpl:47
+msgid "ascending"
+msgstr ""
+
+#: templates_config/navigationForm.tpl:36
+#: templates_config/external/findItem.tpl:142
+#: templates_config/external/selectItem.tpl:48
+msgid "descending"
+msgstr ""
+
+#: templates_config/navigationForm.tpl:59
+#: templates_config/external/findItem.tpl:34
+#: templates_config/external/selectItem.tpl:33
+msgid "Only images"
+msgstr ""
+
+#: templates_config/admin/medium/editThumb.tpl:5
+msgid "Thumbnail cropping"
+msgstr ""
+
+#: templates_config/admin/medium/editThumb.tpl:27
+msgid "Action"
+msgstr ""
+
+#: templates_config/admin/medium/editThumb.tpl:28
+msgid "Crob your thumbnail image here"
+msgstr ""
+
+#: templates_config/admin/medium/editThumb.tpl:30
+msgid ""
+"Simply move the selection area to your desired section. Size and proportions "
+"are fixed."
+msgstr ""
+
+#: templates_config/admin/medium/editThumb.tpl:32
+msgid ""
+"Simply move the selection area to your desired section. You may increase the "
+"size, but proportions are fixed."
+msgstr ""
+
+#: templates_config/admin/medium/editThumb.tpl:34
+msgid ""
+"Simply move the selection area to your desired section. You may increase the "
+"size and change proportions as desired."
+msgstr ""
+
+#: templates_config/admin/medium/editThumb.tpl:48
+msgid "Save"
+msgstr ""
+
+#: templates_config/admin/medium/editThumb.tpl:49
+msgid "Cancel editing"
+msgstr ""
+
+#: templates_config/admin/medium/editThumb.tpl:103
+msgid ""
+"Unfortunately the cropping tool requires JavaScript enabled for working "
+"properly."
+msgstr ""
+
+#: templates_config/admin/medium/edit.tpl:31
+msgid "Input the title of the medium"
+msgstr ""
+
+#: templates_config/admin/medium/edit.tpl:63
+msgid "Input the description of the medium"
+msgstr ""
+
+#: templates_config/admin/medium/edit.tpl:135
+msgid "Drop files from your desktop here"
+msgstr ""
+
+#: templates_config/admin/medium/edit.tpl:143
+msgid "Drop images from your desktop here"
+msgstr ""
+
+#: templates_config/admin/config.tpl:32 templates_config/admin/config.tpl:37
+#: templates_config/admin/config.tpl:54
+msgid "pixels"
+msgstr ""
+
+#: templates_config/external/findItem.tpl:5
+#: templates_config/external/findItem.tpl:31
+msgid "Search and select a file"
+msgstr ""
+
+#: templates_config/external/findItem.tpl:39
+msgid "Thumbnail size"
+msgstr ""
+
+#: templates_config/external/findItem.tpl:54
+msgid "Paste as"
+msgstr ""
+
+#: templates_config/external/findItem.tpl:57
+msgid "Thumbnail with link to original image"
+msgstr ""
+
+#: templates_config/external/findItem.tpl:58
+msgid "Thumbnail with link to detail page"
+msgstr ""
+
+#: templates_config/external/findItem.tpl:59
+msgid "Thumbnail"
+msgstr ""
+
+#: templates_config/external/findItem.tpl:60
+msgid "Original image"
+msgstr ""
+
+#: templates_config/external/findItem.tpl:61
+msgid "Link to thumbnail"
+msgstr ""
+
+#: templates_config/external/findItem.tpl:62
+msgid "Link to original image"
+msgstr ""
+
+#: templates_config/external/findItem.tpl:63
+#: templates_config/external/findItem.tpl:69
+msgid "ID of medium"
+msgstr ""
+
+#: templates_config/external/findItem.tpl:64
+msgid "Original with link to itself"
+msgstr ""
+
+#: templates_config/external/findItem.tpl:68
+msgid "Link to the file"
+msgstr ""
+
+#: templates_config/external/findItem.tpl:76
+#: templates_config/external/selectItem.tpl:20
+msgid "File"
+msgstr ""
+
+#: templates_config/external/findItem.tpl:160
+#: templates_config/external/selectItem.tpl:53
+msgid "Search for"
+msgstr ""
+
+#: templates_config/external/findItem.tpl:162
+msgid "Filter"
+msgstr ""
+
+#: templates_config/external/selectItem.tpl:4
+msgid "File information"
+msgstr ""
+
+#: templates_config/external/selectItem.tpl:55
+msgid "Search"
+msgstr ""
