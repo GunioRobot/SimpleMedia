@@ -72,7 +72,7 @@ class SimpleMedia_UploadHandler extends SimpleMedia_Base_UploadHandler
                 $imgInfo = getimagesize($destinationFilePath);
                 if ($imgInfo[0] > $maxSize['width'] || $imgInfo[1] > $maxSize['height']) {
                     // create thumbnail image
-                    $thumbFilePath = SimpleMedia_Util_View::getImageThumb($fileName, $destinationFilePath, $maxSize['width'], $maxSize['height']);
+                    $thumbFilePath = SimpleMedia_Util_Image::getThumb($destinationFilePath, $maxSize['width'], $maxSize['height']);
                     // remove original image
                     unlink($destinationFilePath);
                     // rename thumbnail image to original image
