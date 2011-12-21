@@ -39,12 +39,15 @@ simpleMedia.find = {}
 
 simpleMedia.find.onLoad = function(baseID, selectedMediumId) {
     $('SimpleMedia_onlyimages').observe('click', simpleMedia.find.onParamChanged);
-    $('SimpleMedia_thumbnr').observe('change', simpleMedia.find.onParamChanged);
+    if ($('SimpleMedia_thumbnr') != undefined) {
+        $('SimpleMedia_thumbnr').observe('change', simpleMedia.find.onParamChanged);
+    }
     $('SimpleMedia_sort').observe('change', simpleMedia.find.onParamChanged);
     $('SimpleMedia_sortdir').observe('change', simpleMedia.find.onParamChanged);
     $('SimpleMedia_pagesize').observe('change', simpleMedia.find.onParamChanged);
     $('SimpleMedia_gosearch').observe('click', simpleMedia.find.onParamChanged)
                              .observe('keypress', simpleMedia.find.onParamChanged);
+    $('SimpleMedia_submit').hide();
     $('SimpleMedia_cancel').observe('click', simpleMedia.find.handleCancel);
 }
 

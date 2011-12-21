@@ -92,7 +92,7 @@
     {{if isset($smarty.get.onlyimages) && $smarty.get.onlyimages eq 1}}
         $('SimpleMedia_thumbnr').observe('change', smSubmitNaviForm);
     {{/if}}
-        $('SimpleMedia_submit').hide();
+        //$('SimpleMedia_submit').hide();
     });
 
     function smSubmitNaviForm()
