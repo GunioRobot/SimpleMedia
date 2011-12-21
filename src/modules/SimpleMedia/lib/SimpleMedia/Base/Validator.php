@@ -201,9 +201,9 @@ abstract class SimpleMedia_Base_Validator extends Zikula_AbstractBase
     public function isStringNotContaining($fieldName, $keyword, $caseSensitive = false)
     {
         if ($caseSensitive === true) {
-            return (strstr($this->entity[$fieldName], $keyword) !== false);
+            return (strstr($this->entity[$fieldName], $keyword) === false);
         }
-        return (stristr($this->entity[$fieldName], $keyword) !== false);
+        return (stristr($this->entity[$fieldName], $keyword) === false);
     }
 
     /**
