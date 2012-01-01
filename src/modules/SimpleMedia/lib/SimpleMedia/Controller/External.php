@@ -63,13 +63,17 @@ class SimpleMedia_Controller_External extends Zikula_AbstractController
         $idValues = array('id' => $id);
 
         $hasIdentifier = SimpleMedia_Util_Controller::isValidIdentifier($idValues);
-        $this->throwNotFoundUnless($hasIdentifier, $this->__('Error! Invalid identifier received.'));
+        //$this->throwNotFoundUnless($hasIdentifier, $this->__('Error! Invalid identifier received.'));
+        if (!$hasIdentifier) {
+            return $this->__('Error! Invalid identifier received.');
+        }
 
         // assign object data fetched from the database
         $objectData = null;
         $objectData = $repository->selectById($idValues);
         if ((!is_array($objectData) && !is_object($objectData)) || !isset($objectData[$idFields[0]])) {
-            $this->throwNotFound($this->__('No such item.'));
+            //$this->throwNotFound($this->__('No such item.'));
+            return $this->__('No such item.');
         }
 
         if (!SecurityUtil::checkPermission('SimpleMedia::', $objectData['id'] . '::', ACCESS_READ)) {

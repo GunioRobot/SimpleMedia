@@ -1,4 +1,5 @@
 {* Purpose of this template: Shows a pdf file *}
+{if !isset($smarty.get.type) || $smarty.get.type eq 'user'}
 <object id="sm{$idprefix}doc{$medium.id}"
         classid="clsid:CA8A9780-280D-11CF-A24D-444553540000"
         width="340" height="200">
@@ -12,3 +13,6 @@
         </a>
     </noembed>
 </object>
+{else}
+<a href="{$medium.theFileFullPathURL}">PDF Download</a>
+{/if}

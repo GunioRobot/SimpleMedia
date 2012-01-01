@@ -146,13 +146,13 @@
         <div class="z-formrow">
             <label for="SimpleMedia_pagesize">{gt text='Page size'}:</label>
             <select id="SimpleMedia_pagesize" name="num" style="width: 50px; text-align: right">
-                <option value="5"{if $pager.numitems eq 5} selected="selected"{/if}>5</option>
-                <option value="10"{if $pager.numitems eq 10} selected="selected"{/if}>10</option>
-                <option value="15"{if $pager.numitems eq 15} selected="selected"{/if}>15</option>
-                <option value="20"{if $pager.numitems eq 20} selected="selected"{/if}>20</option>
-                <option value="30"{if $pager.numitems eq 30} selected="selected"{/if}>30</option>
-                <option value="50"{if $pager.numitems eq 50} selected="selected"{/if}>50</option>
-                <option value="100"{if $pager.numitems eq 100} selected="selected"{/if}>100</option>
+                <option value="5"{if $pager.itemsperpage eq 5} selected="selected"{/if}>5</option>
+                <option value="10"{if $pager.itemsperpage eq 10} selected="selected"{/if}>10</option>
+                <option value="15"{if $pager.itemsperpage eq 15} selected="selected"{/if}>15</option>
+                <option value="20"{if $pager.itemsperpage eq 20} selected="selected"{/if}>20</option>
+                <option value="30"{if $pager.itemsperpage eq 30} selected="selected"{/if}>30</option>
+                <option value="50"{if $pager.itemsperpage eq 50} selected="selected"{/if}>50</option>
+                <option value="100"{if $pager.itemsperpage eq 100} selected="selected"{/if}>100</option>
             </select>
         </div>
 
@@ -163,8 +163,9 @@
         </div>
 
         <div style="margin-left: 6em">
-            {pager show='page' rowcount=$pager.numitems limit=$pager.itemsperpage posvar='startnum' template='pagercss.html' maxpages='10'}
+            {pager display='page' rowcount=$pager.numitems limit=$pager.itemsperpage posvar='pos' template='pagercss.tpl' maxpages='10'}
         </div>
+        <input type="submit" id="SimpleMedia_submit" name="submitButton" value="{gt text='Change selection'}" />
         <input type="button" id="SimpleMedia_cancel" name="cancelButton" value="{gt text='Cancel'}" />
         <br />
     </fieldset>
