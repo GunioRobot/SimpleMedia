@@ -3,7 +3,7 @@
 <form action="{$modvars.ZConfig.entrypoint|default:'index.php'}" method="get" id="smNavForm">
     <fieldset>
 {if !isset($smarty.get.type) || $smarty.get.type ne 'admin'}
-<h3 style="margin-top: 0">Navigation für Redakteure</h3>
+<h3 style="margin-top: 0">{gt text='Navigation for editors'}</h3>
 {/if}
         <input type="hidden" name="module" value="{modgetinfo modname='SimpleMedia' info='displayname'}" />
         <input type="hidden" name="type" value="{if isset($smarty.get.type) && $smarty.get.type eq 'admin'}admin{else}user{/if}" />
@@ -22,18 +22,18 @@
 {/if}
 
 {if $showSorting eq true}
-        <label for="SimpleMedia_sortby">{gt text='Sort by' assign='dummy'}Sortieren nach</label>
+        <label for="SimpleMedia_sortby">{gt text='Sort by'}</label>
         &nbsp;
         <select id="SimpleMedia_sortby" name="sort">
             <option value="title"{if $sort eq 'title'} selected="selected"{/if}>{gt text='Title'}</option>
-            <option value="createdDate"{if $sort eq 'createdDate'} selected="selected"{/if}>{gt text='Creation date' assign='dummy'}Erstellungsdatum</option>
-            <option value="createdUserId"{if $sort eq 'createdUserId'} selected="selected"{/if}>{gt text='Creator' assign='dummy'}Ersteller</option>
-            <option value="updatedDate"{if $sort eq 'updatedDate'} selected="selected"{/if}>{gt text='Update date' assign='dummy'}Änderungsdatum</option>
+            <option value="createdDate"{if $sort eq 'createdDate'} selected="selected"{/if}>{gt text='Creation date'}</option>
+            <option value="createdUserId"{if $sort eq 'createdUserId'} selected="selected"{/if}>{gt text='Creator'}</option>
+            <option value="updatedDate"{if $sort eq 'updatedDate'} selected="selected"{/if}>{gt text='Update date'}</option>
             <option value="theFile"{if $sort eq 'theFile'} selected="selected"{/if}>{gt text='The file'}</option>
         </select>
         <select id="SimpleMedia_sortdir" name="sortdir">
-            <option value="asc"{if $sdir eq 'asc'} selected="selected"{/if}>{gt text='ascending' assign='dummy'}aufsteigend</option>
-            <option value="desc"{if $sdir eq 'desc'} selected="selected"{/if}>{gt text='descending' assign='dummy'}absteigend</option>
+            <option value="asc"{if $sdir eq 'asc'} selected="selected"{/if}>{gt text='ascending'}</option>
+            <option value="desc"{if $sdir eq 'desc'} selected="selected"{/if}>{gt text='descending'}</option>
         </select>
 {/if}
 
@@ -56,7 +56,7 @@
 {/if}
 
         <input type="checkbox" id="SimpleMedia_onlyimages" name="onlyimages" value="1"{if isset($smarty.get.onlyimages) && $smarty.get.onlyimages eq 1} checked="checked"{/if} />
-        <label for="SimpleMedia_onlyimages">{gt text='Only images' assign='dummy'}Nur Bilder</label>
+        <label for="SimpleMedia_onlyimages">{gt text='Only images'}</label>
 
 {if isset($smarty.get.onlyimages) && $smarty.get.onlyimages eq 1}
     {assign var='thumbnr' value=$modvars.SimpleMedia.defaultThumbNumber}
