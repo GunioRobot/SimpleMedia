@@ -33,7 +33,7 @@ class SimpleMedia_Installer extends SimpleMedia_Base_Installer
         $this->setVar('thumbDimensions', $thumbDimensions);
         
         // Allowed File extensions
-        $this->setVar('allowedExtensions', 'gif,jpeg,jpg,png,pdf,doc,xls,ppt,docx,xlsx,pptx,odt,ods,odp,arj,zip,rar,tar,tgz,gz,bz2,txt,rtf,swf,flv,mp3,mp4,avi,mpg,mpeg,mov');
+        $this->setVar('allowedExtensions', 'gif, jpeg, jpg, png, pdf, doc, xls, ppt, docx, xlsx, pptx, odt, ods, odp, arj, zip, rar, tar, tgz, gz, bz2, txt, rtf, swf, flv, mp3, mp4, avi, mpg, mpeg, mov');
         
         return $result;
     }
