@@ -191,12 +191,11 @@ class SimpleMedia_Base_UploadHandler
         switch ($objectType) {
             case 'medium':
                             $allowedExtensions = explode(',', ModUtil::getVar('SimpleMedia', 'allowedExtensions'));
-                            //$allowedExtensions = array('gif', 'jpeg', 'jpg', 'png', 'pdf', 'doc', 'xls', 'ppt', 'docx', 'xlsx', 'pptx', 'odt', 'ods', 'odp', 'arj', 'zip', 'rar', 'tar', 'tgz', 'gz', 'bz2', 'txt', 'rtf', 'swf', 'flv', 'mp3', 'mp4', 'avi', 'mpg', 'mpeg', 'mov');
                             break;
         }
 
         if (!empty($allowedExtensions)) {
-            $extensionCheck = in_array($extension, $allowedExtensions);
+            $extensionCheck = in_array(strtolower($extension), $allowedExtensions);
             if ($extensionCheck === false) {
                 return false;
             }

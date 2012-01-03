@@ -43,7 +43,6 @@
             {formuploadinput group='medium' id='theFile' mandatory=false readOnly=false cssClass=''}
 {/if}
 
-            {* <div class="z-formnote">{gt text='Allowed file extensions:'} gif, jpeg, jpg, png, pdf, doc, xls, ppt, docx, xlsx, pptx, odt, ods, odp, arj, zip, rar, tar, tgz, gz, bz2, txt, rtf, swf, flv, mp3, mp4, avi, mpg, mpeg, mov</div> *}
             <div class="z-formnote">{gt text='Allowed file extensions: %s' tag1=$modvars.SimpleMedia.allowedExtensions}</div>
             {if $mode ne 'create'}
                   <div class="z-formnote">
