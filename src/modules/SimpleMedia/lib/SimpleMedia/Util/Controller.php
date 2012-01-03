@@ -35,8 +35,9 @@ class SimpleMedia_Util_Controller extends SimpleMedia_Util_Base_Controller
                 // Try to create the specified directory
                 if (FileUtil::mkdirs($dir, 0777)) {
                     // write a htaccess file in the image upload directory
-                    //$allowedExtensions = ModUtil::getVar('SimpleMedia', 'allowedExtensions');
-                    $htaccessContent = str_replace('__EXTENSIONS__', 'gif|jpeg|jpg|png|pdf|doc|xls|ppt|docx|xlsx|pptx|odt|ods|odp|arj|zip|rar|tar|tgz|gz|bz2|txt|rtf|swf|flv|mp3|mp4|avi|mpg|mpeg|mov', FileUtil::readFile('modules/SimpleMedia/docs/htaccess'));
+                    $extensions = str_replace(',', '|', str_replace(' ', '', ModUtil::getVar('SimpleMedia', 'allowedExtensions')));
+                    // $htaccessContent = str_replace('__EXTENSIONS__', 'gif|jpeg|jpg|png|pdf|doc|xls|ppt|docx|xlsx|pptx|odt|ods|odp|arj|zip|rar|tar|tgz|gz|bz2|txt|rtf|swf|flv|mp3|mp4|avi|mpg|mpeg|mov', FileUtil::readFile('modules/SimpleMedia/docs/htaccess'));
+                    $htaccessContent = str_replace('__EXTENSIONS__', $extensions, FileUtil::readFile('modules/SimpleMedia/docs/htaccess'));
                     if (FileUtil::writeFile($dir . '/.htaccess', $htaccessContent)) {
                         LogUtil::registerStatus(__f('SimpleMedia created a media upload directory successfully at [%s] and wrote an .htaccess file there for security.', $dir, $dom));
                     } else {
