@@ -190,7 +190,8 @@ class SimpleMedia_Controller_Admin extends SimpleMedia_Controller_Base_Admin
 
         // compute thumbnail file path using a sub folder
         $pathInfo = pathinfo($fullFileName);
-        $thumbFilePath = $pathInfo['dirname'] . '/tmb/' . $pathInfo['filename'] . '_' . $coords['width'] . 'x' . $coords['height'] . '.' . $pathInfo['extension'];
+        $mediaThumbDir = ModUtil::getVar('SimpleMedia', 'mediaThumbDir');
+        $thumbFilePath = $pathInfo['dirname'] . '/' . $mediaThumbDir . '/' . $pathInfo['filename'] . '_' . $coords['width'] . 'x' . $coords['height'] . '.' . $pathInfo['extension'];
 
         //if ($coords['width'] == $thumbDimension['width'] && $coords['height'] == $thumbDimension['height']) {
             // delete old thumbnail image if existing

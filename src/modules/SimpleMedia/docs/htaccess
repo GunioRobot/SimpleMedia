@@ -1,0 +1,8 @@
+# ----------------------------------------------------------------------
+# Purpose of file: block any web access other than default extensions
+# ----------------------------------------------------------------------
+deny from all
+<FilesMatch "\.(__EXTENSIONS__)$">
+order allow,deny
+allow from all
+</filesmatch>

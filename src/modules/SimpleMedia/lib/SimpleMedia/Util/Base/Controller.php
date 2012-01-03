@@ -125,10 +125,10 @@ class SimpleMedia_Util_Base_Controller extends Zikula_AbstractBase
         }
 
         $basePath = FileUtil::getDataDirectory() . '/SimpleMedia/';
-
+        $mediaDir = ModUtil::getVar('SimpleMedia', 'mediaDir');
         switch ($objectType) {
             case 'medium':
-                            $basePath .= 'media/thefile/';
+                            $basePath .= $mediaDir . '/';
                             break;
         }
 

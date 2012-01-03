@@ -190,7 +190,8 @@ class SimpleMedia_Base_UploadHandler
         $allowedExtensions = array();
         switch ($objectType) {
             case 'medium':
-                            $allowedExtensions = array('gif', 'jpeg', 'jpg', 'png', 'pdf', 'doc', 'xls', 'ppt', 'docx', 'xlsx', 'pptx', 'odt', 'ods', 'odp', 'arj', 'zip', 'rar', 'tar', 'tgz', 'gz', 'bz2', 'txt', 'rtf', 'swf', 'flv', 'mp3', 'mp4', 'avi', 'mpg', 'mpeg', 'mov');
+                            $allowedExtensions = explode(',', ModUtil::getVar('SimpleMedia', 'allowedExtensions'));
+                            //$allowedExtensions = array('gif', 'jpeg', 'jpg', 'png', 'pdf', 'doc', 'xls', 'ppt', 'docx', 'xlsx', 'pptx', 'odt', 'ods', 'odp', 'arj', 'zip', 'rar', 'tar', 'tgz', 'gz', 'bz2', 'txt', 'rtf', 'swf', 'flv', 'mp3', 'mp4', 'avi', 'mpg', 'mpeg', 'mov');
                             break;
         }
 
@@ -346,11 +347,13 @@ class SimpleMedia_Base_UploadHandler
 
         // get extension again, but including the dot
         $fileExtension = FileUtil::getExtension($fileName, true);
-        $thumbFileNameBase = str_replace($fileExtension, '', $fileName) . '_tmb_';
+        $mediaThumbExt = ModUtil::getVar('SimpleMedia', 'mediaThumbExt');
+        $thumbFileNameBase = str_replace($fileExtension, '', $fileName) . $mediaThumbExt;
         $thumbFileNameBaseLength = strlen($thumbFileNameBase);
 
         // remove image thumbnails
-        $thumbPath = $basePath . 'tmb/';
+        $mediaThumbDir = ModUtil::getVar('SimpleMedia', 'mediaThumbDir');
+        $thumbPath = $basePath . $mediaThumbDir;
         $thumbFiles = FileUtil::getFiles($thumbPath, false, true, null, 'f'); // non-recursive, relative pathes
         foreach ($thumbFiles as $thumbFile) {
             $thumbFileBase = substr($thumbFile, 0, $thumbFileNameBaseLength);

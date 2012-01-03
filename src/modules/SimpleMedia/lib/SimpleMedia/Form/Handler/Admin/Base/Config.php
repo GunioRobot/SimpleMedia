@@ -44,7 +44,6 @@ class SimpleMedia_Form_Handler_Admin_Base_Config extends Zikula_Form_AbstractHan
         // retrieve module vars
         $modVars = ModUtil::getVar('SimpleMedia');
 
-
         // assign all module vars
         $this->view->assign('config', $modVars);
 

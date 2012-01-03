@@ -44,7 +44,8 @@ class SimpleMedia_Util_Base_Image extends Zikula_AbstractBase
 
         // compute thumbnail file path using a sub folder
         $pathInfo = pathinfo($filePath);
-        $thumbFilePath = $pathInfo['dirname'] . '/tmb/' . $pathInfo['filename'] . '_' . $width . 'x' . $height . '.' . $pathInfo['extension'];
+        $mediaThumbDir = ModUtil::getVar('SimpleMedia', 'mediaThumbDir');
+        $thumbFilePath = $pathInfo['dirname'] . '/' .  $mediaThumbDir . '/' . $pathInfo['filename'] . '_' . $width . 'x' . $height . '.' . $pathInfo['extension'];
 
         // return thumbnail file path if it is already existing
         if (file_exists($thumbFilePath)) {

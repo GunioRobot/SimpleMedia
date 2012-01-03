@@ -85,7 +85,6 @@ class SimpleMedia_Form_Handler_Admin_Config extends SimpleMedia_Form_Handler_Adm
             //$this->assign('thumbsizes', $thumbsizes);
 
 
-
             $maxSize = array('width' => 0, 'height' => 0);
             if ($data['config']['enableShrinking']) {
                 $maxSize['width'] = $data['maxSize']['shrinkWidth'];
