@@ -15,7 +15,6 @@
 {assign var='showPreview' value=false}
 {/if}
 
-
 <form id="cropform" action="{modurl modname='SimpleMedia' type='admin' func='updatethumb'}" method="post">
 {if $showPreview eq true}
     <fieldset class="z-floatright z-w49">
@@ -84,8 +83,8 @@
         );
     } );
 
-    $('saveThumb').observe('click', maStartThumbUpdate)
-                  .observe('keyup', maStartThumbUpdate);
+    $('saveThumb').observe('click', smStartThumbUpdate)
+                  .observe('keyup', smStartThumbUpdate);
 
     function smStartThumbUpdate() {
         $('cropform').submit();

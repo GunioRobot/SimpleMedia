@@ -101,7 +101,7 @@ class SimpleMedia_Controller_External extends Zikula_AbstractController
     public function findItem($args)
     {
         $this->throwForbiddenUnless(SecurityUtil::checkPermission('SimpleMedia::', '::', ACCESS_COMMENT));
-        PageUtil::addVar('stylesheet', ThemeUtil::getModuleStylesheet('MediaAttach'));
+        PageUtil::addVar('stylesheet', ThemeUtil::getModuleStylesheet('SimpleMedia'));
 
         $smView = Zikula_View::getInstance('SimpleMedia', false);
         $smView->assign('mainCategory', ModUtil::apiFunc('SimpleMedia', 'category', 'getMainCat'));
